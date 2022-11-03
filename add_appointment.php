@@ -18,10 +18,10 @@
 
 				// ensure thtat form fields are filled properly
 			if (empty($pname_var)) {
-				array_push($errors, " Name is required");
+				array_push($errors, "Name is required");
 			}
 			if (empty($phoneNo_var)) {
-				array_push($errors, " Phone Number is required");
+				array_push($errors, "Phone Number is required");
 			}
 			if (empty($email_var)) {
 				array_push($errors, "Email is required");
